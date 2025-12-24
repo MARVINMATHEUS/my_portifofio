@@ -1,0 +1,221 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Nunito", sans-serif;
+
+}
+
+
+.caixa-principal {
+
+    height: 100vh;
+    width: 100%;
+    background-color: #191919;
+    background-size: cover;
+    background-image: url('./img/dev.png');
+
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20px;
+}
+
+.portfolio {
+    color: aliceblue;
+    font: 40px;
+}
+
+.portfolio span {
+    color: blueviolet;
+}
+
+li {
+    color: aliceblue;
+    list-style: none;
+    display: inline-block;
+    font-size: 25px;
+    margin-right: 30px;
+    cursor: pointer;
+}
+
+li:hover {
+    color: blueviolet;
+    transition: 0, 5s;
+}
+
+.link-menu {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+
+}
+
+.meu-nome {
+    position: absolute;
+    top: 69%;
+    left: 3%;
+}
+
+h1 {
+    color: aliceblue;
+}
+
+h1 span {
+    color: blueviolet;
+}
+
+.meu-nome h3 {
+    color: blanchedalmond;
+    font-size: 20 px;
+}
+section{
+    height: 300px;
+    display: flex;
+    align-items: center;
+    padding: 60px, 15%;
+    background-color: black;
+    justify-content: space-between;
+}
+section img{
+    height: 260px;
+    border-radius: 50%;
+    border: 1px solid blanchedalmond;
+    margin-right: 40px
+}
+section div h2{
+    color: aliceblue;
+    font-size: 65px;
+
+}
+section div p{
+    color: antiquewhite;
+    font-size: 15px;
+    display: flexbox;
+    justify-content: center;
+}
+section div button{
+    
+    color: rgb(255, 255, 255);
+    background: blueviolet ;
+    height: 45px;
+    width: 170px;
+    font-size: 18px;
+    border: none;
+    border-radius: 26px;
+    cursor: pointer;
+
+}
+section div button:hover{
+    background-color: black;
+    border: 3px solid rgb(67, 9, 101);
+    transition: 0.5s;
+}
+
+.projetos {
+    background-color: #191919;
+    padding-top: 50px;
+    padding-bottom: 100px;
+
+}
+
+.projetos h2 {
+    color: aliceblue;
+    font-size: 50px;
+    text-align: center;
+}
+
+.card {
+    background-color: black;
+    height: 300px;
+    width: 300px;
+    border-radius: 20px;
+    padding: 20px 35px;
+    text-align: center;
+}
+
+.card img{
+    height: 100px;
+}
+
+.card h5 {
+    color: aliceblue;
+    font-size: 24px;
+}
+.card p{
+    color: antiquewhite;
+    font-size: 24px;
+    margin: 20px 30px;
+}
+
+.card a{
+    background-color: blueviolet;
+    color: aliceblue;
+    padding: 10px 20px;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: 0,5s;
+    text-decoration: none;
+}
+
+.card a:hover{
+    background-color: transparent;
+    border: 2px solid blueviolet;
+    transition: 0,5s;
+}
+
+.card-projetos{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+footer{
+    background-color: black;
+    padding-top: 100px;
+    padding-bottom: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+footer h5{
+    color: antiquewhite;
+    font-size: 30px;
+}
+
+footer p{
+    margin-bottom: 30px;
+    margin-top: 14px;
+    color: antiquewhite;
+    font-size: 15px;
+}
+.social {
+    display: flex;
+    gap: 20px;
+}
+.social img{
+   height: 25px;
+   border-radius: 50%; 
+}
+
+.social a{
+   
+    background-color: blueviolet;
+    display: flex;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    height:50px;
+    width: 50px;
+    cursor: pointer;
+}
+
+.social a:hover {
+    transform: scale(1.3);
+    transition: 0.7;
+}
